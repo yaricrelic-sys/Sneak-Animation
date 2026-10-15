@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0"
+
+[[mods]]
+modId="sneakanimation"
+version="0.1.2-forge"
+displayName="Sneak Animation"
+description='''
+Tweaks the first person smooth sneaking animation.
+Ported to Forge 1.20.1.
+'''
+authors="PieKing1215"
+
+[[dependencies.sneakanimation]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.sneakanimation]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.sneakanimation]]
+modId="cloth_config"
+mandatory=false
+versionRange="[11,)"
+ordering="AFTER"
+side="CLIENT"
