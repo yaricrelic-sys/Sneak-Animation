@@ -15,7 +15,7 @@ public class Config {
 
     public static class General {
         public final ForgeConfigSpec.ConfigValue<Boolean> enabled;
-        public static final double ANIM_MIN = 0.1;
+        public static final double ANIM_MIN = 0.001;
         public static final double ANIM_MAX = 2.5;
         public final ForgeConfigSpec.ConfigValue<Double> animationSpeed;
         public final ForgeConfigSpec.ConfigValue<Boolean> disableAnimation;
